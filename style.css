@@ -163,6 +163,7 @@ footer p {
     top: 55%;
     transform: translate(-50%, -50%);
     font-family: 'Source Code Pro', monospace;
+    font-weight: 120px;
     font-size: 15px;
 }
 
@@ -194,26 +195,27 @@ footer p {
 .bagian_kanan {
     position: absolute;
     left: 67.5%;
-    top: 148.5%;
+    top: 151.5%;
     transform: translate(-50%, -50%);
     font-size: 25px;
     height: 200;
+    width: 500;
     background: whitesmoke;
     text-align: center;
     font-family: helvetica;
 }
 
 .bagian_kanan table{
-    border: black solid 2px;
+    border: rgb(1, 210, 210) solid 4px;
     border-radius: 20px;
 }
 
 .bagian_kanan th{
-    padding-left: 25px;
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    border-bottom: black solid 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: rgb(1, 210, 210) solid 4px;
 }
 
 .bagian_kanan td{
